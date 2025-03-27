@@ -8,6 +8,7 @@ install_jupyter:
 	-uv add ipykernel
 
 install_python_basics:
+	-uv add umap-learn
 	-uv add numpy
 	-uv add pandas
 	-uv add matplotlib
