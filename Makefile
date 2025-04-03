@@ -6,6 +6,7 @@ install_hooks:
 install_jupyter:
 	-uv add ipython
 	-uv add ipykernel
+	-uv add ipywidgets
 
 install_python_basics:
 	-uv add umap-learn
@@ -17,4 +18,5 @@ install_python_basics:
 	-uv add pathlib
 	-uv add distro
 	-uv add jupyter_black
+	-uv add memory_profiler
 # add more packages!
