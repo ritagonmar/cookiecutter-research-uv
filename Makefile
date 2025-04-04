@@ -18,5 +18,6 @@ install_python_basics:
 	-uv add pathlib
 	-uv add distro
 	-uv add jupyter_black
+	-uv add black
 	-uv add memory_profiler
 # add more packages!
