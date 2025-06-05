@@ -4,7 +4,7 @@ lines.linewidth : .5
                        
                        ## used by scatter plot s = l.ms**2
 #### * FONT *
-font.sans-serif: Arial
+# font.sans-serif: Arial
 font.size : 6
 
 
@@ -43,7 +43,7 @@ legend.frameon: False
 
 
 #### * FIGURE *
-#figure.constrained_layout.use: True
+figure.constrained_layout.use: True
 #figure.autolayout: True  # When True, automatically adjust subplot
                            # parameters to make the plot fit the figure
                            # using `tight_layout`

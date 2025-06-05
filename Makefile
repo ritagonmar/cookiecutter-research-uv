@@ -14,6 +14,8 @@ install_python_basics:
 	-uv add umap-learn
 	-uv add numpy
 	-uv add pandas
+	-uv add tables 
+# ^ important dependecy for pandas!
 	-uv add matplotlib
 	-uv add watermark
 	-uv add autoreload
